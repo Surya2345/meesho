@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-main{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+input[type=text]{
+   border: none;
+   outline: none;
+    width: 250px;
+    background-color: aliceblue;
+}
+.search{
+    border: 1px solid rgb(145, 145, 145);
+    width: 280px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+hr{
+    opacity: 30%;
+}
+
+.right-nav li{
+    list-style: none;
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 35px;
+    padding-left: 15px;
+    margin-right: 40px;
+    color: rgb(30, 30, 30);
+}
+.right-nav{
+    float: right;
+    margin-right: 40px;
+}
+.left-nav{
+    float: left;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 0, 183);
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.bottom-list{
+    background-color: aliceblue;
+}
+.bottom-li{
+    display: inline-flex;
+    list-style: none;
+    padding: 20px;
+    margin-left: 70px;
+
+}
+.bottom-li li{
+    padding-left: 40px;
+    color: grey;
+}
+/* main content */
+.main-content{
+    margin-left: 70px;
+    width: 100%;
+    height: 50vh;
+}
+.content{
+    margin-left: 200px;
+    margin-top: 110px;
+}
+.content-img{
+    margin-left: 800px;
+    margin-top: -380px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: 'popins',sans-serif;
+}
+.link{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.link a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+
+}
+.btn{
+    padding: 10px;
+    display: inline-flex;
+    background-color: rgb(255, 0, 200);
+    border-radius: 5px;
+    color: #fff;
+    padding-inline: 20px;
+    margin-top: 30px;
+}
+.btn p{
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.img-icon{
+    background-color: rgb(255, 162, 235);
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+li a{
+    margin-top: 8px;
+    padding-left: 5px;
+}
